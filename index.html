@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @font-face {
+        font-family: "Inter";
+        src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+      }
+      .attribution {
+        color: white;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 69%, 75%);
+      }
+      body {
+        background-color: hsl(0, 0%, 8%);
+        font-family: "Inter";
+      }
+      main {
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: min-content;
+        max-height: min-content;
+        text-align: center;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 15px;
+      }
+
+      .card img {
+        border-radius: 360px;
+        margin-top:2vh;
+        width: 7em;
+      }
+      .card .aboutme h2 {
+        color: white;
+        font-weight: 500;
+        padding-bottom:0px;
+        margin-bottom:0px;
+      }
+      .card .aboutme h3 {
+        color: hsl(75, 94%, 57%);
+        font-size:1rem;
+        padding-top:10px;
+        margin-top:0px;
+        margin-bottom:2vh;
+      }
+      .card .aboutme p {
+        color: white;
+        font-size: smaller;
+        font-weight: 300;
+      }
+      .card .links{
+        margin:auto 2vh 1.5vh 2vh;
+      }
+      .card .link {
+        width: 30vh;
+        height: 4.5vh;
+        margin: 10px;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 10px;
+        font-size: 1.4vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .card .link:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+      }
+      .card a{
+        
+        text-decoration: none;
+        text-justify: center;
+        color: white;
+      }
+      .card .link h3{
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="position: absolute; color: rgba(0, 255, 0, 0)"></h1>
+    </header>
+    <main>
+      <div class="card">
+        <img src="assets/images/avatar.jpg" />
+        <div class="aboutme">
+          <h2>Ulrich Rohloff</h2>
+          <h3>Salzkotten, Germany</h3>
+          <p>"Full Stack Developer (under construction)"</p>
+        </div>
+        <div class="links">
+          <a href="https://github.com/Rohloffmeister" target="_blank">
+            <div class="link">
+              <h3>GitHub</h3>
+            </div></a
+          ><a href="https://www.frontendmentor.io/profile/Rohloffmeister" target="_blank">
+            <div class="link">
+              <h3>Frontend Mentor</h3>
+            </div></a
+          >
+          <a href="#" target="_blank">
+            <div class="link">
+              <h3>LinkedIn</h3>
+            </div></a
+          >
+          <a href="https://x.com/Rohloffmeister" target="_blank">
+            <div class="link">
+              <h3>Twitter</h3>
+            </div>
+          </a>
+          <a href="#" target="_blank">
+            <div class="link">
+              <h3>Instagram</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://steamcommunity.com/id/Rohloffmeister/" target="_blank"
+          >Ulrich Rohloff</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
